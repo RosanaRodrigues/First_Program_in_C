@@ -37,6 +37,14 @@
 *.hex
 
 # Debug files
+
+#include <stdio.h>
+
+int main(void)
+{
+  printf("Hello World");
+  return 0;
+}
 *.dSYM/
 *.su
 *.idb
